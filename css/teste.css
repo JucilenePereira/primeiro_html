@@ -13,14 +13,44 @@ strong {
 }
 
 div{
+    
     background-color:grey
 }
 
 .caixa {
+    width: 8%;
+    height: 30px;
+    padding: 10px;
+    border: 2px solid black;
+    bottom: 20px;
     background-color: pink
 }
 
-#ultima-caixa {
-    background-color:blue
+
+.caixa2 {
+    width: 8%;
+    height: 30px;
+    padding: 10px;
+    border: 2px solid black;
+    bottom: 20px;
+    background-color: red
 }
 
+#ultima-caixa {
+    width: 8%;
+    height: 30px;
+    padding: 10px;
+    border: 2px solid black;
+    bottom: 20px;
+    background-color:blue
+    
+}
+
+p {
+    background-color: yellow;
+    width: 10%;
+    height: 30px;
+    padding: 10px;
+    border: 2px solid black;
+    bottom: 20px;
+}
