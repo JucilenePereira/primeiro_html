@@ -1,0 +1,75 @@
+.home_header {
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+.titulo1 {
+    font-family: Georgia;
+    font-style: oblique;
+    text-align: center;
+}
+
+
+
+.home_header-navbar {
+    display: flex;
+    gap: 400px;
+    justify-content: safe;
+    
+}
+
+.home_header-navbar_item {
+    list-style: none;
+    color: black;
+    text-decoration: none;
+}
+
+.home_header-navbar_item:hover {
+    scale: 1.04;
+    color: aquamarine;
+}
+
+.titulo2 {
+    text-align: center;
+    font-family: Georgia;
+   }
+
+.titulo3 {
+    text-align: center;
+    font-family: Georgia;
+    font-style: italic;
+}
+
+.titulo4 {
+    text-align: justify;
+    font-family: Georgia;
+    font-style: italic;
+}
+
+.texto1 {
+    text-align: justify;
+    font-family: Georgia;
+    font-style: italic;
+}
+
+.imagem_texto {
+    width: 100%;
+  height: auto;
+  }
+
+
+
+.testeimagem {
+  ;
+}
+
+body {
+    background-color:aquamarine
+}
+
+footer {
+    background-color: whitesmoke;
+    text-align: center;
+    font-family: Georgia;
+    padding: 10px;
+}
