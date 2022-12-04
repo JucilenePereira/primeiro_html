@@ -9,11 +9,14 @@
     text-align: center;
 }
 
+
+
 .home_header-navbar {
     display: flex;
-    gap: 400px;
-    justify-content: safe;
-    
+    gap: 10px;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
 }
 
 .home_header-navbar_item {
@@ -56,6 +59,11 @@
   }
 
 
+
+.testeimagem {
+  ;
+}
+
 body {
     background-color:aquamarine
 }
@@ -66,3 +74,4 @@ footer {
     font-family: Georgia;
     padding: 10px;
 }
+
