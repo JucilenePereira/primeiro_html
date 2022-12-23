@@ -2,9 +2,9 @@ const title = document.getElementsByClassName('title')
 const error_text = document.getElementsByClassName('error-text')
 const username_input = document.getElementById('login-usuario')
 const password_input = document.getElementById('login-senha')
+const success_message = document.getElementsByClassName('success_message')
 
-
-title[0].style.color = 'blue'
+title[0].style.color = 'rgb(161, 32, 161)'
 
 // error_text[0].classList.add('visible')
 // console.log(username_input.value)
@@ -23,4 +23,8 @@ function validateForms() {
 }
 
 
-validateForms()
+// validateForms()
+
+function showSuccessMessage() {
+    success_message[0].classList.add('visible')
+}

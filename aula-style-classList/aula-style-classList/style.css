@@ -19,6 +19,9 @@ main {
 
 section {
   padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 form {
@@ -68,4 +71,19 @@ input.correct {
 
 .visible {
   display: block;
+}
+
+.success_message {
+  align-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  background-color: rgb(161, 32, 161);
+  width: 250px;
+  height: 30px;
+  border-radius: 60px;
+  display: none;
 }
